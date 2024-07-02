@@ -58,7 +58,7 @@ st.markdown(
 )
 
 # Streamlit App
-st.title("Customer Churn Prediction")
+st.title("Bank Customer Churn Prediction")
 
 # Input fields
 st.write("## Enter Customer Data")
