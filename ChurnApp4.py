@@ -104,4 +104,6 @@ if st.button("Predict Churn"):
     prediction = predict_churn(user_data)
     if prediction is not None:
         if prediction[0] == 1:
-            st.write("Prediction: Customer will not be
+            st.write("Prediction: Customer will not be retained")
+        else:
+            st.write("Prediction: Customer will be retained")
