@@ -50,7 +50,7 @@ st.markdown(
         width: 150px;
     }
     </style>
-    <img src="nicelogo.jpeg" class="logo">
+    <img src="logo.jpeg" class="logo">
     """,
     unsafe_allow_html=True
 )
